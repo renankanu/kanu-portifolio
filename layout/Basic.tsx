@@ -1,22 +1,36 @@
 import { createGlobalStyle } from "styled-components";
+import customColors from '../styles/customColors';
 
 export const GlobalStyle = createGlobalStyle`
-    // this is the shared style
-  html {
+html {
     box-sizing: border-box;
   }
 
-  *,
-  *::before,
-  *::after {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+*::before,
+*::after {
     box-sizing: inherit;
-  }
-
-h1 {
-    color: yellow !important; // the important is just to show that the style works!
 }
 
-  // anything else you would like to include
+body {
+    background: ${customColors .backgroundApp};
+    color: ${customColors.white};
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
+}
 `;
 
 const BasicLayout = ({ children }: { children: any }) => {

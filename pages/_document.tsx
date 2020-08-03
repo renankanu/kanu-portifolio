@@ -36,7 +36,8 @@ export default class MyDocument extends Document<any> {
     return (
       <html>
         <Head>
-          {this.props.styleTags /*rendering the actually stylesheet*/}
+          <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+          {this.props.styleTags}
         </Head>
         <body>
           <Main />
