@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Wrapper, Overlay, MyName, Container, Anchor } from './styles';
+import {
+  Wrapper,
+  Overlay,
+  MyName,
+  Container,
+  Anchor,
+  Hamburger,
+  Bar,
+  Sidebar,
+} from './styles';
 
 const Header: React.FC = () => {
   const [sidebar, toggle] = useState(false);
@@ -12,12 +21,24 @@ const Header: React.FC = () => {
         <Link href="/">
           <MyName>Renan Kanu</MyName>
         </Link>
-        <Anchor desktop="">
+        <Anchor desktop>
           <AnchorLink href="#about">Sobre</AnchorLink>
           <AnchorLink href="#projects">Projetos</AnchorLink>
           <AnchorLink href="#contact">Contatos</AnchorLink>
         </Anchor>
       </Container>
+      <Hamburger sidebar={sidebar} onClick={() => toggle(!sidebar)}>
+        <Bar top sidebar={sidebar} />
+        <Bar mid sidebar={sidebar} />
+        <Bar bottom sidebar={sidebar} />
+      </Hamburger>
+      <Sidebar active={sidebar} onClick={toggle}>
+        <Anchor>
+          <AnchorLink href="#about">Sobre</AnchorLink>
+          <AnchorLink href="#projects">Projetos</AnchorLink>
+          <AnchorLink href="#contact">Contatos</AnchorLink>
+        </Anchor>
+      </Sidebar>
     </Wrapper>
   );
 };
