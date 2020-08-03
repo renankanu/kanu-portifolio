@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import customColors from '../../styles/customColors';
 
 export const Container = styled.div`
+  display: block;
   flex-direction: column;
   margin: auto;
   place-content: center;

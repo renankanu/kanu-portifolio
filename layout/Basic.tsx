@@ -3,7 +3,7 @@ import customColors from '../styles/customColors';
 
 export const GlobalStyle = createGlobalStyle`
 html {
-    box-sizing: border-box;
+    box-sizing: inherit;
   }
 
 * {

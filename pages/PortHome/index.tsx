@@ -1,6 +1,6 @@
 import { Container, TagGreen, Label } from './styles'
 
-const PortHome = () => {
+const PortHome: React.FC = () => {
     return (
         <Container>
             <div>

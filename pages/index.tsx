@@ -3,7 +3,7 @@ import Link from 'next/link'
 import BasicLayout from 'layout/Basic'
 import PortHome from './PortHome'
 
-const Home = () => {
+const Home: React.FC = () => {
   const title = "<RenanKanu>"
   return (
     <BasicLayout>
