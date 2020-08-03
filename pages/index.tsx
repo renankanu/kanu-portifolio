@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import BasicLayout from 'layout/Basic'
-import PortHome from './PortHome'
+import Head from 'next/head';
+import React from 'react';
+import BasicLayout from 'layout/Basic';
+import PortHome from './PortHome';
 
 const Home: React.FC = () => {
-  const title = "<RenanKanu>"
+  const title = '<RenanKanu>';
   return (
     <BasicLayout>
       <Head>
@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       </Head>
       <PortHome />
     </BasicLayout>
-  )
-}
+  );
+};
 
 export default Home;
