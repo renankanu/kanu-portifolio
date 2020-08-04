@@ -38,7 +38,7 @@ button {
 }
 `;
 
-const BasicLayout: React.FC = ({ children }: { children: any }) => {
+const BasicLayout: React.FC = ({ children }: { children: unknown }) => {
   return (
     <>
       <GlobalStyle />
