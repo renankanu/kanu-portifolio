@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {
   Wrapper,
@@ -19,12 +18,10 @@ const Header: React.FC = () => {
     <Wrapper>
       <Overlay sidebar={sidebar} onClick={() => toggle(!sidebar)} />
       <Container>
-        <Link href="/">
-          <MyName>
-            {'<Renan'}
-            <MyNickname>{`Kanu>`}</MyNickname>
-          </MyName>
-        </Link>
+        <MyName>
+          {'<Renan'}
+          <MyNickname>{'Kanu>'}</MyNickname>
+        </MyName>
         <Anchor desktop>
           <AnchorLink href="#about">Sobre</AnchorLink>
           <AnchorLink href="#projects">Projetos</AnchorLink>
