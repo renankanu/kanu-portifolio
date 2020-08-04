@@ -35,6 +35,14 @@ export const Container = styled.div`
 
 export const MyName = styled.div`
   font-size: 24px;
+  display: flexbox;
+  font-weight: 600;
+  color: ${customColors.white};
+`;
+
+export const MyNickname = styled.div`
+  font-weight: 400;
+  margin-left: 0.3rem;
   color: ${customColors.white};
 `;
 

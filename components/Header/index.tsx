@@ -5,6 +5,7 @@ import {
   Wrapper,
   Overlay,
   MyName,
+  MyNickname,
   Container,
   Anchor,
   Hamburger,
@@ -19,7 +20,10 @@ const Header: React.FC = () => {
       <Overlay sidebar={sidebar} onClick={() => toggle(!sidebar)} />
       <Container>
         <Link href="/">
-          <MyName>Renan Kanu</MyName>
+          <MyName>
+            {'<Renan'}
+            <MyNickname>{`Kanu>`}</MyNickname>
+          </MyName>
         </Link>
         <Anchor desktop>
           <AnchorLink href="#about">Sobre</AnchorLink>
