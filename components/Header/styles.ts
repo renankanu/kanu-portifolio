@@ -25,7 +25,6 @@ export const Overlay = styled.div`
 export const Container = styled.div`
   padding: 0.5rem 0;
   display: flex;
-  background: #542;
   align-items: center;
   justify-content: space-between;
 
@@ -61,7 +60,7 @@ export const Anchor = styled.div`
 			}
 		`
       : `
-			padding: 3rem;
+			padding: 4rem 3rem;
 			display: flex;
 			flex-direction: column;
 
@@ -77,7 +76,7 @@ export const Anchor = styled.div`
 
 export const Hamburger = styled.div`
   z-index: 5;
-  top: 1.6rem;
+  top: 0.5rem;
   right: 1.8rem;
   display: none;
   cursor: pointer;
@@ -92,7 +91,7 @@ export const Hamburger = styled.div`
     sidebar &&
     `
 			right: 18%;
-			top: 1.4rem;
+			top: .5rem;
 
 			@media (max-width: 960px) {
 				right: 35%;
