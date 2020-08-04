@@ -1,4 +1,5 @@
-import { createGlobalStyle } from "styled-components";
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
 import customColors from '../styles/customColors';
 
 export const GlobalStyle = createGlobalStyle`
@@ -18,13 +19,13 @@ html {
 }
 
 body {
-    background: ${customColors .backgroundApp};
+    background: ${customColors.backgroundApp};
     color: ${customColors.white};
     -webkit-font-smoothing: antialiased;
 }
 
 body, input, button {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -37,7 +38,7 @@ button {
 }
 `;
 
-const BasicLayout = ({ children }: { children: any }) => {
+const BasicLayout: React.FC = ({ children }: { children: any }) => {
   return (
     <>
       <GlobalStyle />
