@@ -6,6 +6,8 @@ import {
   Avatar,
   ContainerIntroDesc,
   ContainerIntroImage,
+  Title,
+  ContainerTitle,
 } from './style';
 
 const Intro: React.FC = () => {
@@ -15,8 +17,10 @@ const Intro: React.FC = () => {
         <TagGreen>
           <Label>Mobile Developer</Label>
         </TagGreen>
-        <div>Olá, meu nome é Renan.</div>
-        <div>E este é meu portifolio, muito bem vindo.</div>
+        <ContainerTitle>
+          <Title>Talk is cheap.</Title>
+          <Title>Show me the code</Title>
+        </ContainerTitle>
       </ContainerIntroDesc>
       <ContainerIntroImage>
         <Avatar src="/kanu.jpg" />
