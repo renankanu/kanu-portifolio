@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import customColors from '../../styles/customColors'
+import defaultTheme from '../../styles/theme'
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -37,13 +37,13 @@ export const MyName = styled.div`
   font-size: 24px;
   display: flexbox;
   font-weight: 600;
-  color: ${customColors.white};
+  color: ${defaultTheme.white};
 `
 
 export const MyNickname = styled.div`
   font-weight: 400;
   margin-left: 0.3rem;
-  color: ${customColors.white};
+  color: ${defaultTheme.white};
 `
 
 export const Anchor = styled.div`
@@ -158,7 +158,7 @@ export const Sidebar = styled.div`
   width: 0;
   opacity: 0;
   height: 100%;
-  background-color: ${customColors.menu};
+  background-color: ${defaultTheme.menu};
   transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
 
   ${({ active }) =>

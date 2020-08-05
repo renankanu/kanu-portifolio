@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import customColors from '../../styles/customColors'
+import defaultTheme from '../../styles/theme'
 
 export const Container = styled.div`
   padding: 5rem 20rem 0rem 20rem;
@@ -37,7 +37,7 @@ export const TagGreen = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 3px;
-  background: ${customColors.secondColor};
+  background: ${defaultTheme.secondColor};
 `
 
 export const ContainerTitle = styled.div`
@@ -49,7 +49,7 @@ export const Title = styled.div`
 `
 
 export const Label = styled.p`
-  color: ${customColors.backgroundApp};
+  color: ${defaultTheme.backgroundApp};
 `
 
 export const Avatar = styled.img`

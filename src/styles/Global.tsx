@@ -1,8 +1,11 @@
-import React from 'react'
 import { createGlobalStyle } from 'styled-components'
-import customColors from '../styles/customColors'
+import defaultTheme, { ThemeType } from './theme'
 
-export const GlobalStyle = createGlobalStyle`
+interface Props {
+  theme: ThemeType
+}
+
+const GlobalStyle = createGlobalStyle<Props>`
 html {
     box-sizing: inherit;
   }
@@ -19,9 +22,9 @@ html {
 }
 
 body {
-    background: ${customColors.backgroundApp};
-    color: ${customColors.white};
-    -webkit-font-smoothing: antialiased;
+  background: ${({ theme }) => theme.backgroundApp};
+  color: ${({ theme }) => theme.white};
+  -webkit-font-smoothing: antialiased;
 }
 
 body, input, button {
@@ -38,13 +41,4 @@ button {
 }
 `
 
-const BasicLayout: React.FC = ({ children }: { children: unknown }) => {
-  return (
-    <>
-      <GlobalStyle />
-      {children}
-    </>
-  )
-}
-
-export default BasicLayout
+export default GlobalStyle
