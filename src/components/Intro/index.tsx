@@ -23,7 +23,7 @@ const Intro: React.FC = () => {
         </ContainerTitle>
       </ContainerIntroDesc>
       <ContainerIntroImage>
-        <Avatar src="/kanu.jpg" />
+        <Avatar src="/kanu.jpg" alt="Renan Kanu" />
       </ContainerIntroImage>
     </Container>
   )
