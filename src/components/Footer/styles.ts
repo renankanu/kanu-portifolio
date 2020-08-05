@@ -5,9 +5,8 @@ const FooterElement = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${({ theme }) => theme.light};
-  color: ${({ theme }) => theme.dark};
-  font-weight: bold;
+  background: ${({ theme }) => theme.menu};
+  color: ${({ theme }) => theme.white};
   font-size: 1.3em;
 `
 

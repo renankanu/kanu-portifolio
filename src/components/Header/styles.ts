@@ -37,13 +37,13 @@ export const MyName = styled.div`
   font-size: 24px;
   display: flexbox;
   font-weight: 600;
-  color: ${defaultTheme.white};
+  color: ${({ theme }) => theme.white};
 `
 
 export const MyNickname = styled.div`
   font-weight: 400;
   margin-left: 0.3rem;
-  color: ${defaultTheme.white};
+  color: ${({ theme }) => theme.white};
 `
 
 export const Anchor = styled.div`
@@ -158,7 +158,7 @@ export const Sidebar = styled.div`
   width: 0;
   opacity: 0;
   height: 100%;
-  background-color: ${defaultTheme.menu};
+  background-color: ${({ theme }) => theme.menu};
   transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
 
   ${({ active }) =>

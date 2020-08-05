@@ -32,12 +32,12 @@ export const ContainerIntroImage = styled.div`
 export const TagGreen = styled.div`
   padding: 16px 16px;
   height: 32px;
-  width: 160px;
+  width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 3px;
-  background: ${defaultTheme.secondColor};
+  background: ${({ theme }) => theme.secondColor};
 `
 
 export const ContainerTitle = styled.div`
@@ -49,7 +49,7 @@ export const Title = styled.div`
 `
 
 export const Label = styled.p`
-  color: ${defaultTheme.backgroundApp};
+  color: ${({ theme }) => theme.backgroundApp};
 `
 
 export const Avatar = styled.img`
