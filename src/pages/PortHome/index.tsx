@@ -6,7 +6,6 @@ import { Container } from './styles'
 const PortHome: React.FC = () => {
   return (
     <Container>
-      <Header />
       <Intro />
     </Container>
   )
