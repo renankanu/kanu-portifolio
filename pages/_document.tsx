@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
@@ -35,7 +34,6 @@ export default class MyDocument extends Document<any> {
 
   render() {
     return (
-      // eslint-disable-next-line jsx-a11y/html-has-lang
       <html>
         <Head>
           <link
