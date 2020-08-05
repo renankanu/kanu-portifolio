@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   Container,
   TagGreen,
@@ -8,7 +8,7 @@ import {
   ContainerIntroImage,
   Title,
   ContainerTitle,
-} from './style';
+} from './style'
 
 const Intro: React.FC = () => {
   return (
@@ -26,7 +26,7 @@ const Intro: React.FC = () => {
         <Avatar src="/kanu.jpg" />
       </ContainerIntroImage>
     </Container>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro

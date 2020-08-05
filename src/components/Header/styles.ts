@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import customColors from '../../styles/customColors';
+import styled from 'styled-components'
+import customColors from '../../styles/customColors'
 
 export const Wrapper = styled.div`
   width: 100%;
   padding: 0 6rem;
-`;
+`
 
 export const Overlay = styled.div`
   position: fixed;
@@ -20,7 +20,7 @@ export const Overlay = styled.div`
       display: block;
       z-index: 4;
   `}
-`;
+`
 
 export const Container = styled.div`
   padding: 0.5rem 0;
@@ -31,20 +31,20 @@ export const Container = styled.div`
   a {
     color: #ffffff;
   }
-`;
+`
 
 export const MyName = styled.div`
   font-size: 24px;
   display: flexbox;
   font-weight: 600;
   color: ${customColors.white};
-`;
+`
 
 export const MyNickname = styled.div`
   font-weight: 400;
   margin-left: 0.3rem;
   color: ${customColors.white};
-`;
+`
 
 export const Anchor = styled.div`
   a {
@@ -80,7 +80,7 @@ export const Anchor = styled.div`
 					}
 			}
 	`}
-`;
+`
 
 export const Hamburger = styled.div`
   z-index: 5;
@@ -109,7 +109,7 @@ export const Hamburger = styled.div`
 				right: 66%;
 			}
 	`}
-`;
+`
 
 export const Bar = styled.div`
 	width: 1.6rem;
@@ -147,7 +147,7 @@ export const Bar = styled.div`
       transform: translateY(-6px) rotate(-45deg);
       background-color: #96F3B2;
 	`}
-`;
+`
 
 export const Sidebar = styled.div`
   position: fixed;
@@ -176,4 +176,4 @@ export const Sidebar = styled.div`
 				width: 75%;
 			}
 	`}
-`;
+`

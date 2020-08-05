@@ -1,6 +1,6 @@
-import React from 'react';
-import { createGlobalStyle } from 'styled-components';
-import customColors from '../styles/customColors';
+import React from 'react'
+import { createGlobalStyle } from 'styled-components'
+import customColors from '../styles/customColors'
 
 export const GlobalStyle = createGlobalStyle`
 html {
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, strong {
 button {
     cursor: pointer;
 }
-`;
+`
 
 const BasicLayout: React.FC = ({ children }: { children: unknown }) => {
   return (
@@ -44,7 +44,7 @@ const BasicLayout: React.FC = ({ children }: { children: unknown }) => {
       <GlobalStyle />
       {children}
     </>
-  );
-};
+  )
+}
 
-export default BasicLayout;
+export default BasicLayout
