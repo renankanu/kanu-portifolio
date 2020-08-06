@@ -61,7 +61,7 @@ export const Title = styled.div`
 export const Label = styled.p`
   color: ${({ theme }) => theme.backgroundApp};
 `
-
+//button example
 export const Button = styled.button`
   background: linear-gradient(to right, #3dbec6 3%, #292eec);
   height: 53px;

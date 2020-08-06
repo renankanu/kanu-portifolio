@@ -6,19 +6,9 @@ interface Props {
 }
 
 const GlobalStyle = createGlobalStyle<Props>`
-html {
-    box-sizing: inherit;
-  }
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-}
-*::before,
-*::after {
-    box-sizing: inherit;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 body {
