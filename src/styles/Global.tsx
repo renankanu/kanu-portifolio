@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import defaultTheme, { ThemeType } from './theme'
+import { ThemeType } from './theme'
 
 interface Props {
   theme: ThemeType

@@ -5,21 +5,31 @@ export const Container = styled.div`
   padding: 5rem 20rem 0rem 20rem;
   display: flex;
 
-  @media (max-width: 1230px) {
-    padding: 5rem 15rem 0rem 15rem;
+  @media (max-width: 1245px) {
+    padding: 5rem 16rem 0rem 16rem;
   }
 
-  @media (max-width: 1068px) {
-    padding: 5rem 10rem 0rem 10rem;
+  @media (max-width: 1110px) {
+    padding: 5rem 12rem 0rem 12rem;
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 852px) {
+    padding: 5rem 6rem 0rem 6rem;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
     padding: 5rem 2rem 0rem 2rem;
   }
 `
 
 export const ContainerIntroDesc = styled.div`
   width: 100%;
+  background: ${({ theme }) => theme.menu};
+  color: ${({ theme }) => theme.white};
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 export const ContainerIntroImage = styled.div`
@@ -52,16 +62,30 @@ export const Label = styled.p`
   color: ${({ theme }) => theme.backgroundApp};
 `
 
+export const Button = styled.button`
+  background: linear-gradient(to right, #3dbec6 3%, #292eec);
+  height: 53px;
+  border-radius: 35px;
+  border: 0;
+  padding: 0 16px;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  &:active {
+    background: linear-gradient(to right, #292eec 4%, #653ff5 50%, #a752fe, #ae54ff);
+  }
+`
+
 export const Avatar = styled.img`
   vertical-align: middle;
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
 
-  @media (max-width: 960px) {
+  @media (max-width: 640px) {
     vertical-align: middle;
-    width: 6rem;
-    height: 6rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
   }
 `
