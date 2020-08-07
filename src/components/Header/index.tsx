@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import React, { useState } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import {
   Wrapper,
   Overlay,
@@ -10,10 +10,10 @@ import {
   Hamburger,
   Bar,
   Sidebar,
-} from './styles';
+} from './styles'
 
 const Header: React.FC = () => {
-  const [sidebar, toggle] = useState(false);
+  const [sidebar, toggle] = useState(false)
   return (
     <Wrapper>
       <Overlay sidebar={sidebar} onClick={() => toggle(!sidebar)} />
@@ -41,7 +41,7 @@ const Header: React.FC = () => {
         </Anchor>
       </Sidebar>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

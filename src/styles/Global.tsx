@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle<Props>`
 * {
   justify-content: center;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {

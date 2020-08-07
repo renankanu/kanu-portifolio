@@ -8,6 +8,7 @@ const FooterElement = styled.footer`
   background: ${({ theme }) => theme.menu};
   color: ${({ theme }) => theme.white};
   font-size: 1.3em;
+  width: 100%;
 `
 
 export default FooterElement
