@@ -2,8 +2,10 @@ import styled from 'styled-components'
 import defaultTheme from '../../styles/theme'
 
 export const Wrapper = styled.div`
+  position: fixed;
   width: 100%;
-  padding: 0 6rem;
+  padding-bottom: 10px;
+  box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
 `
 
 export const Overlay = styled.div`
@@ -23,7 +25,10 @@ export const Overlay = styled.div`
 `
 
 export const Container = styled.div`
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
   display: flex;
   align-items: center;
   justify-content: space-between;

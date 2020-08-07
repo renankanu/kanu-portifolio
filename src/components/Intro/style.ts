@@ -2,25 +2,10 @@ import styled from 'styled-components'
 import defaultTheme from '../../styles/theme'
 
 export const Container = styled.div`
+  max-width: 1024px;
+  background: #a03;
   padding: 5rem 20rem 0rem 20rem;
   display: flex;
-
-  @media (max-width: 1245px) {
-    padding: 5rem 16rem 0rem 16rem;
-  }
-
-  @media (max-width: 1110px) {
-    padding: 5rem 12rem 0rem 12rem;
-  }
-
-  @media (max-width: 852px) {
-    padding: 5rem 6rem 0rem 6rem;
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    padding: 5rem 2rem 0rem 2rem;
-  }
 `
 
 export const ContainerIntroDesc = styled.div`
