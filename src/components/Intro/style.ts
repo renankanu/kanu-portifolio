@@ -1,10 +1,8 @@
 import styled from 'styled-components'
-import defaultTheme from '../../styles/theme'
 
 export const Container = styled.div`
   display: block;
   max-width: 885px;
-  background: #a35;
   margin-right: auto;
   margin-left: auto;
   padding-top: 80px;
@@ -16,13 +14,11 @@ export const Container = styled.div`
 `
 
 export const ContainerIntroDesc = styled.div`
-  color: ${({ theme }) => theme.white};
+  width: 50%;
 `
 
 export const ContainerIntroImage = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 50%;
 `
 
 export const TagGreen = styled.div`
@@ -63,15 +59,5 @@ export const Button = styled.button`
 `
 
 export const Avatar = styled.img`
-  vertical-align: middle;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-
-  @media (max-width: 640px) {
-    vertical-align: middle;
-    width: 13rem;
-    height: 13rem;
-    border-radius: 50%;
-  }
+  max-width: 100%;
 `
