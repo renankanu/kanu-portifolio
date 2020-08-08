@@ -3,6 +3,7 @@ import defaultTheme from '../../styles/theme'
 
 export const Wrapper = styled.div`
   position: fixed;
+  background: #2d2e32;
   width: 100%;
   padding-bottom: 10px;
   box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);

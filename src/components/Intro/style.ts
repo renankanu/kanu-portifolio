@@ -2,23 +2,24 @@ import styled from 'styled-components'
 import defaultTheme from '../../styles/theme'
 
 export const Container = styled.div`
-  max-width: 1024px;
-  background: #a03;
-  padding: 5rem 20rem 0rem 20rem;
+  display: block;
+  max-width: 885px;
+  background: #a35;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   display: flex;
 `
 
 export const ContainerIntroDesc = styled.div`
-  width: 100%;
-  background: ${({ theme }) => theme.menu};
   color: ${({ theme }) => theme.white};
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 `
 
 export const ContainerIntroImage = styled.div`
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
