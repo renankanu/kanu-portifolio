@@ -59,5 +59,7 @@ export const Button = styled.button`
 `
 
 export const Avatar = styled.img`
+  vertical-align: middle;
+  border-radius: 50%;
   max-width: 100%;
 `

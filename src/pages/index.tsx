@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import React from 'react'
 import PortHome from './PortHome'
 import Layout from '../components/Layout/index'

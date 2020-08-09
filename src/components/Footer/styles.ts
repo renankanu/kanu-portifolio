@@ -10,5 +10,4 @@ const FooterElement = styled.footer`
   font-size: 1.3em;
   width: 100%;
 `
-
 export default FooterElement

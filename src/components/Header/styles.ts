@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-import defaultTheme from '../../styles/theme'
 
 export const Wrapper = styled.div`
   position: fixed;
-  background: #2d2e32;
+  background: ${({ theme }) => theme.backgroundApp};
   width: 100%;
   padding-bottom: 10px;
   box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
@@ -33,10 +32,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  a {
-    color: #ffffff;
-  }
 `
 
 export const MyName = styled.div`
@@ -54,7 +49,7 @@ export const MyNickname = styled.div`
 
 export const Anchor = styled.div`
   a {
-    color: #fff;
+    color: ${({ theme }) => theme.white};
     text-decoration: none;
   }
 
@@ -121,7 +116,7 @@ export const Bar = styled.div`
 	width: 1.6rem;
 	height: .15rem;
 	margin-bottom: .3rem;
-	background-color: #FFF;
+	background-color: ${({ theme }) => theme.white};
 	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
 	opacity 500ms,
 	box-shadow 250ms,
