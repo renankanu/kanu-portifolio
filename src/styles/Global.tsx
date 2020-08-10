@@ -7,15 +7,22 @@ interface Props {
 
 const GlobalStyle = createGlobalStyle<Props>`
 * {
-  justify-content: center;
-  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+  box-sizing: border-box
+}
+
+html {
+  font-size: 10px;
+  color: #eee;
 }
 
 body {
+  width: 100%;
+  height: 100%;
   background: ${({ theme }) => theme.backgroundApp};
   color: ${({ theme }) => theme.white};
-  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 body, input, button {

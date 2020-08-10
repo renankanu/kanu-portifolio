@@ -1,16 +1,13 @@
 import styled from 'styled-components'
 
+export const About = styled.div`
+  padding: 10rem 0;
+`
+
 export const Container = styled.div`
-  display: block;
-  max-width: 885px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 80px;
-  padding-right: 10px;
-  padding-left: 10px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const ContainerIntroDesc = styled.div`

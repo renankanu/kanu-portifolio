@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+  About,
   Container,
   TagGreen,
   Label,
@@ -12,20 +13,15 @@ import {
 
 const Intro: React.FC = () => {
   return (
-    <Container id="about">
-      <ContainerIntroDesc>
-        <TagGreen>
-          <Label>Mobile Developer</Label>
-        </TagGreen>
-        <ContainerTitle>
-          <Title>Talk is cheap.</Title>
-          <Title>Show me the code</Title>
-        </ContainerTitle>
-      </ContainerIntroDesc>
-      <ContainerIntroImage>
-        <Avatar src="/kanu.jpg" alt="Renan Kanu" />
-      </ContainerIntroImage>
-    </Container>
+    <About>
+      <Container>
+        <div>apskdpa</div>
+        <div>apskdpa</div>
+        <div>apskdpa</div>
+        <div>apskdpa</div>
+        <div>apskdpa</div>
+      </Container>
+    </About>
   )
 }
 

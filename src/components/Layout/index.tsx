@@ -25,11 +25,15 @@ const Layout: React.FC<LayoutProps> = ({
 
         <title>{pageTitle}</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <LayoutElement>
         <Header />
         <main>{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </LayoutElement>
     </>
   )
