@@ -1,12 +1,21 @@
 import React from 'react'
-import FooterElement from './styles'
+import { FooterElement, Label, Up, Icon } from './styles'
+import { animateScroll as scroll } from 'react-scroll'
 
 interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
   return (
     <FooterElement>
-      <p>&copy; {new Date().getFullYear()}</p>
+      <Up id="up">
+        <Icon
+          className="fas fa-chevron-up"
+          onClick={() => {
+            scroll.scrollToTop()
+          }}
+        ></Icon>
+      </Up>
+      <Label>&copy; {`${new Date().getFullYear()} Renan Kanu`}</Label>
     </FooterElement>
   )
 }

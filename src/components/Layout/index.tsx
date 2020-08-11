@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({
       <LayoutElement>
         <Header />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </LayoutElement>
     </>
   )
