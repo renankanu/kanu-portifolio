@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Headerlanding, TitleName, SubTitleName } from './styles'
 
-const HeaderLanding = () => {
+const HeaderLanding: React.FC = () => {
   return (
     <Headerlanding>
       <Container>
