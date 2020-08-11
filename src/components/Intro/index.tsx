@@ -20,10 +20,10 @@ const Intro: React.FC = () => {
   return (
     <AboutSection>
       <Container>
-        <ContainerImage>
+        <ContainerImage data-aos="fade-right" data-aos-delay="300">
           <Image src="/kanu.jpg" alt="Renan Kanu" />
         </ContainerImage>
-        <ContainerIntroDesc>
+        <ContainerIntroDesc data-aos="fade-left" data-aos-delay="600">
           <AboutHeading>
             <Title>Sobre</Title>
             <SubTitle>Renan</SubTitle>
