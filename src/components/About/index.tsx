@@ -16,7 +16,7 @@ import {
   NavList,
 } from './style'
 
-const Intro: React.FC = () => {
+const About: React.FC = () => {
   return (
     <AboutSection id="about">
       <Container>
@@ -61,4 +61,4 @@ const Intro: React.FC = () => {
   )
 }
 
-export default Intro
+export default About
