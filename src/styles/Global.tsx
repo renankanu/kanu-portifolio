@@ -20,7 +20,8 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: ${({ theme }) => theme.backgroundApp};
+  background: url("/background.jpg") no-repeat center fixed;
+  background-size: cover;
   color: ${({ theme }) => theme.white};
   overflow-x: hidden;
 }
