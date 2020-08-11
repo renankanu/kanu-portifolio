@@ -18,7 +18,7 @@ import {
 
 const Intro: React.FC = () => {
   return (
-    <AboutSection>
+    <AboutSection id="about">
       <Container>
         <ContainerImage data-aos="fade-right" data-aos-delay="300">
           <Image src="/kanu.jpg" alt="Renan Kanu" />
