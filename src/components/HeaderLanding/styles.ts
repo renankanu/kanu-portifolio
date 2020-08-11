@@ -42,7 +42,7 @@ export const TitleName = styled.h1`
   }
 `
 
-export const SubTitleName = styled.h1`
+export const SubTitleName = styled.h6`
   font-size: 2rem;
   font-weight: 300;
 

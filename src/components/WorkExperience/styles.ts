@@ -44,7 +44,7 @@ export const Title = styled.h1`
   }
 `
 
-export const SubTitle = styled.div`
+export const SubTitle = styled.h6`
   font-size: 1.6rem;
   font-weight: 300;
 `
