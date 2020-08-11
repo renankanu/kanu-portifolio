@@ -11,8 +11,7 @@ interface CustomAppProps extends AppProps {}
 const CustomApp: React.FC<CustomAppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
     AOS.init({
-      easing: 'ease-in-out-quart',
-      duration: 800,
+      duration: 1800,
       once: true,
     })
   }, [])

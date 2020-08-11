@@ -16,7 +16,6 @@ export const Container = styled.div`
 `
 export const TitleName = styled.h1`
   font-size: 12rem;
-  font-family: 'Fira Code', sans-serif;
   background: linear-gradient(
     to top,
     ${({ theme }) => theme.white},
