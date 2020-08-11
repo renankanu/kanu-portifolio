@@ -26,7 +26,7 @@ body {
 }
 
 body, input, button {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Fira Code', sans-serif;
     font-size: 16px;
 }
 

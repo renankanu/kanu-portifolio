@@ -1,45 +1,102 @@
 import styled from 'styled-components'
 
-export const About = styled.div`
+export const AboutSection = styled.div`
   padding: 10rem 0;
 `
-
 export const Container = styled.div`
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 630px) {
+    flex-direction: column;
+  }
 `
 
 export const ContainerIntroDesc = styled.div`
-  width: 50%;
+  flex: 1;
 `
 
-export const ContainerIntroImage = styled.div`
-  width: 50%;
+export const ContainerImage = styled.div`
+  flex: 1;
+  margin-right: 5rem;
+
+  @media screen and (max-width: 768px) {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 630px) {
+    margin: 0 0 7rem 0;
+  }
 `
 
-export const TagGreen = styled.div`
-  padding: 16px 16px;
-  height: 32px;
-  width: 180px;
+export const AboutHeading = styled.div`
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  margin-bottom: 6rem;
+`
+
+export const Title = styled.h1`
+  font-size: 10rem;
+  opacity: 0.3;
+  @media screen and (max-width: 768px) {
+    font-size: 8rem;
+  }
+`
+
+export const SubTitle = styled.h6`
+  font-size: 2rem;
+  font-weight: 300;
+`
+
+export const Description = styled.p`
+  font-size: 1.8rem;
+`
+
+export const NavList = styled.ul`
+  list-style: none;
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border-radius: 3px;
-  background: ${({ theme }) => theme.secondColor};
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: initial;
+  }
 `
 
-export const ContainerTitle = styled.div`
-  margin-top: 40px;
+export const IconLink = styled.a`
+  text-decoration: none;
+  color: #ccc;
 `
 
-export const Title = styled.div`
-  font-size: 36px;
+export const ListItem = styled.li`
+  margin: 0 2rem;
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
+  }
 `
 
-export const Label = styled.p`
-  color: ${({ theme }) => theme.backgroundApp};
+export const Item = styled.i`
+  font-size: 5rem;
+  transition: color 650ms;
+  &:hover {
+    color: ${({ theme }) => theme.secondColor};
+  }
 `
+
+export const SocialMediaContainer = styled.div`
+  margin-top: 2rem;
+`
+
 //button example
 export const Button = styled.button`
   background: linear-gradient(to right, #3dbec6 3%, #292eec);
@@ -55,8 +112,6 @@ export const Button = styled.button`
   }
 `
 
-export const Avatar = styled.img`
-  vertical-align: middle;
-  border-radius: 50%;
-  max-width: 100%;
+export const Image = styled.img`
+  width: 100%;
 `

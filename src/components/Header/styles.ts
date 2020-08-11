@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   position: fixed;
   background: ${({ theme }) => theme.backgroundApp};
   width: 100%;
+  z-index: 9999;
   padding-bottom: 10px;
   box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
 `
