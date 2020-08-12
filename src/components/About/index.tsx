@@ -39,18 +39,18 @@ const About: React.FC = () => {
           <SocialMediaContainer>
             <NavList>
               <ListItem>
-                <IconLink href="#">
+                <IconLink href="https://www.facebook.com/renan.santos.92123/" target="_blank">
                   <Item className="fab fa-facebook-square"></Item>
                 </IconLink>
               </ListItem>
               <ListItem>
-                <IconLink href="#">
+                <IconLink href="https://github.com/renankanu" target="_blank">
                   <Item className="fab fa-github"></Item>
                 </IconLink>
               </ListItem>
               <ListItem>
-                <IconLink href="#">
-                  <Item className="fab fa-instagram"></Item>
+                <IconLink href="https://www.linkedin.com/in/renansantosbr/" target="_blank">
+                  <Item className="fab fa-linkedin-in"></Item>
                 </IconLink>
               </ListItem>
             </NavList>

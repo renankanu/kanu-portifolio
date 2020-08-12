@@ -29,7 +29,7 @@ const Skill: React.FC = () => {
             </IconContainer>
             <TitleSkill>JavaScript</TitleSkill>
             <DescriptionSkill>
-              Desenvolvimento de APPs utilizando o framework React Native, utilizando JavaScript.
+              Desenvolvimento de APPs utilizando o framework React Native com JavaScript.
             </DescriptionSkill>
           </Skills>
           <Skills data-aos="zoom-in" data-aos-delay="600">
