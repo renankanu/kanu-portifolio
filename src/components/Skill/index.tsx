@@ -32,16 +32,16 @@ const Skill: React.FC = () => {
               Desenvolvimento de APPs utilizando o framework React Native, utilizando JavaScript.
             </DescriptionSkill>
           </Skills>
-          <Skills data-aos="zoom-in" data-aos-delay="900">
+          <Skills data-aos="zoom-in" data-aos-delay="600">
             <IconContainer>
               <Icon className="fas fa-store"></Icon>
             </IconContainer>
             <TitleSkill>Google Play/Apple Store</TitleSkill>
             <DescriptionSkill>
-              Experiência em publicação na loja App Store e Play Store;
+              Experiência em publicação na loja App Store e Play Store.
             </DescriptionSkill>
           </Skills>
-          <Skills data-aos="zoom-in" data-aos-delay="300">
+          <Skills data-aos="zoom-in" data-aos-delay="900">
             <IconContainer>
               <Icon className="fab fa-git-alt"></Icon>
             </IconContainer>
@@ -50,7 +50,7 @@ const Skill: React.FC = () => {
           </Skills>
         </MySkills>
         <MySkills>
-          <Skills data-aos="zoom-in" data-aos-delay="900">
+          <Skills data-aos="zoom-in" data-aos-delay="300">
             <IconContainer>
               <Icon className="fab fa-aws"></Icon>
             </IconContainer>
@@ -67,7 +67,7 @@ const Skill: React.FC = () => {
             <TitleSkill>Docker</TitleSkill>
             <DescriptionSkill>Administração de containers com Docker.</DescriptionSkill>
           </Skills>
-          <Skills data-aos="zoom-in" data-aos-delay="600">
+          <Skills data-aos="zoom-in" data-aos-delay="900">
             <IconContainer>
               <Icon className="fab fa-android"></Icon>
             </IconContainer>

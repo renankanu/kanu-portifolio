@@ -4,6 +4,7 @@ import { Container } from './styles'
 import HeaderLanding from 'src/components/HeaderLanding'
 import WorkExperience from 'src/components/WorkExperience'
 import Skill from 'src/components/Skill'
+import Learn from 'src/components/Learn'
 
 const PortHome: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const PortHome: React.FC = () => {
       <HeaderLanding />
       <About />
       <Skill />
+      <Learn />
       <WorkExperience />
     </Container>
   )
