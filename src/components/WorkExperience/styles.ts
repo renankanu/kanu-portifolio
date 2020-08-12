@@ -91,7 +91,8 @@ export const ListItem = styled.li`
     min-width: 12rem;
     font-size: 1.5rem;
     @media screen and (max-width: 768px) {
-      left: -19.5rem;
+      font-size: 1.1rem;
+      left: -19rem;
     }
   }
   &:after {

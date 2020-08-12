@@ -22,13 +22,13 @@ const WorkExperience: React.FC = () => {
         </SectionHeading>
         <TimeLine>
           <UndecoratedList>
-            <ListItem data-date="2019 - atual" data-aos="fade-up" data-aos-delay="300">
+            <ListItem data-date="2019 - atual">
               <WorkTitle>Megaleios</WorkTitle>
               <WorkDesc>
                 Desenvolvimento de APP utilizando React Native, JavaScript e Flutter
               </WorkDesc>
             </ListItem>
-            <ListItem data-date="2016 - 2019" data-aos="fade-up" data-aos-delay="600">
+            <ListItem data-date="2016 - 2019">
               <WorkTitle>Sisterra</WorkTitle>
               <WorkDesc>
                 Desenvolvimento de APP nativo com Java, Kotlin, API e microserviços com PHP, Docker
