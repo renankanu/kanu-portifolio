@@ -16,7 +16,7 @@ import {
 
 const Skill: React.FC = () => {
   return (
-    <ServiceSection>
+    <ServiceSection id="skill">
       <Container>
         <SectionHeading>
           <Title>Skills</Title>

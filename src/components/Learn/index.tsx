@@ -15,7 +15,7 @@ import {
 
 const Learn: React.FC = () => {
   return (
-    <LearnSection>
+    <LearnSection id="learn">
       <Container>
         <SectionHeading>
           <Title>De Olho</Title>

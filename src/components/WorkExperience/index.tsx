@@ -14,7 +14,7 @@ import {
 
 const WorkExperience: React.FC = () => {
   return (
-    <ExperienceSection>
+    <ExperienceSection id="workExp">
       <Container>
         <SectionHeading>
           <Title>Experiência de trabalho</Title>
