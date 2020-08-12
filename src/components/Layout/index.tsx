@@ -12,7 +12,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({
   pageTitle,
-  description = 'Next.js Portifolio',
+  description = 'Renan Kanu Portfolio',
   children,
 }) => {
   return (
