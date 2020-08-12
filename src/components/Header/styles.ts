@@ -26,7 +26,7 @@ export const Overlay = styled.div`
 `
 
 export const Container = styled.div`
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
@@ -70,7 +70,7 @@ export const Anchor = styled.div`
 			}
 		`
       : `
-			padding: 4rem 3rem;
+			padding: 8rem 3rem;
 			display: flex;
 			flex-direction: column;
 
@@ -86,7 +86,7 @@ export const Anchor = styled.div`
 
 export const Hamburger = styled.div`
   z-index: 5;
-  top: 0.5rem;
+  top: 2rem;
   right: 1.8rem;
   display: none;
   cursor: pointer;
@@ -101,7 +101,7 @@ export const Hamburger = styled.div`
     sidebar &&
     `
 			right: 18%;
-			top: .5rem;
+			top: 2rem;
 
 			@media (max-width: 960px) {
 				right: 35%;
@@ -114,9 +114,9 @@ export const Hamburger = styled.div`
 `
 
 export const Bar = styled.div`
-	width: 1.6rem;
-	height: .15rem;
-	margin-bottom: .3rem;
+	width: 2.5rem;
+	height: .2rem;
+	margin-bottom: .5rem;
 	background-color: ${({ theme }) => theme.white};
 	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
 	opacity 500ms,

@@ -37,7 +37,7 @@ const Header: React.FC = () => {
       <Sidebar active={sidebar} onClick={toggle}>
         <Anchor>
           <AnchorLink href="#about">Sobre</AnchorLink>
-          <AnchorLink href="#projects">Skills</AnchorLink>
+          <AnchorLink href="#skill">Skills</AnchorLink>
           <AnchorLink href="#learn">Interesse</AnchorLink>
           <AnchorLink href="#workExp">Experiência</AnchorLink>
         </Anchor>
