@@ -32,6 +32,8 @@
   }
 </style>
 
+[![project](https://img.shields.io/badge/renankanu-portfolio-brightgreen)](https://github.com/renankanu/kanu-portifolio) [![licence mit](https://img.shields.io/badge/license-MIT-blue)](https://github.com/renankanu/kanu-portifolio/blob/master/LICENSE) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/renansantosbr/)
+
 <h1>Meu Portfolio</h1>
 <div id="containerTitle">
   <div id="title600">&ltRenan</div>
