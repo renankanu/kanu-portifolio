@@ -21,11 +21,13 @@
     width: 28rem;
     margin: 0 auto;
     display: flex;
-  justify-content: center;
+    justify-content: center;
+    box-shadow: 0 6px 31px -2px #96F3B24D
   }
 </style>
 
 <h1>Meu Portfolio</h1>
 <div id="containerTitle">
-<div id="title600">&ltRenan</div><div id="title">Kanu&gt</div>
+  <div id="title600">&ltRenan</div>
+  <div id="title">Kanu&gt</div>
 </div>
