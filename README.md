@@ -22,7 +22,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    box-shadow: 0 6px 31px -2px #96F3B24D
+    box-shadow: 0 6px 31px -2px #96F3B24D;
   }
   #containerDesc {
     padding: 2rem 2rem
@@ -35,7 +35,12 @@
 [![project](https://img.shields.io/badge/renankanu-portfolio-brightgreen)](https://github.com/renankanu/kanu-portifolio) [![licence mit](https://img.shields.io/badge/license-MIT-blue)](https://github.com/renankanu/kanu-portifolio/blob/master/LICENSE) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/renansantosbr/)
 
 <h1>Meu Portfolio</h1>
-<div id="containerTitle">
+<div style="background: #96F3B2;
+    width: 28rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 6px 31px -2px #96F3B24D;">
   <div id="title600">&ltRenan</div>
   <div id="title">Kanu&gt</div>
 </div>
