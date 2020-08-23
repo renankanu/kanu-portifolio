@@ -12,10 +12,9 @@ export const Container = styled.div`
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  z-index: 1;
 `
 export const TitleName = styled.h1`
-  font-size: 12rem;
+  font-size: 10rem;
   background: linear-gradient(
     to top,
     ${({ theme }) => theme.white},
@@ -55,7 +54,7 @@ export const SubTitleName = styled.h6`
 
 export const ContainerAnimation = styled.h1`
   margin-top: 6vw;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
   overflow: hidden;
 `
@@ -78,3 +77,44 @@ export const MySkills = styled.span`
   padding-left: 1.2vw;
 `
 export const Cursor = styled.span``
+
+export const ScrollDown = styled.div`
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+export const Mouse = styled.div`
+  width: 2rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+`
+
+export const DotMouse = styled.span`
+  margin-top: 1rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: ${({ theme }) => theme.secondColor};
+  display: block;
+  border-radius: 4rem;
+`
+
+export const ArrowContainer = styled.div``
+
+export const ArrowIcon = styled.span`
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid transparent;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  transform: rotate(45deg);
+`
