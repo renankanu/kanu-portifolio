@@ -17,30 +17,38 @@ import {
 gsap.registerPlugin(TextPlugin, RoughEase)
 
 const HeaderLanding: React.FC = () => {
-  const words = ['Renan.', 'A Father,', 'A Husband', 'A Developer']
+  const words = ['Bem vindo.', 'Sou Renan 🤘🏾']
   const refCursor = useRef(null)
   const refBox = useRef(null)
   const refHi = useRef(null)
   const refMySkills = useRef(null)
   useEffect(() => {
-    let masterTl = gsap.timeline({ repeat: -1 }).pause()
+    let enterTml = gsap.timeline({ repeat: -1 }).pause()
     gsap.to(refCursor.current, { opacity: 0, ease: 'power2.inOut', repeat: -1 })
 
     gsap
       .timeline()
-      .to(refBox.current, { duration: 1, width: '170px', delay: 0.5, ease: 'power4.inOut' })
-      .from(refHi.current, { duration: 1, y: '6vw', ease: 'power3.out' })
+      .to(refBox.current, { duration: 1, width: '10.5vw', delay: 0.5, ease: 'power4.inOut' })
+      .from(refHi.current, { duration: 1, y: '4.7vw', ease: 'power3.out' })
       .to(refBox.current, {
         duration: 1,
-        height: '5rem',
+        height: '6vw',
         ease: 'elastic.out',
-        onComplete: () => masterTl.play(),
+        onComplete: () => enterTml.play(),
+      })
+      .to(refBox.current, {
+        duration: 2,
+        autoAlpha: 0.7,
+        yoyo: true,
+        repeat: -1,
+        ease:
+          "rough({ template: none.out, strength:  1, points: 20, taper: 'none', randomize: true, clamp: false})",
       })
 
     words.forEach((word) => {
-      let tl = gsap.timeline({ repeat: 1, yoyo: true, repeatDelay: 1 })
-      tl.to(refMySkills.current, { duration: 1, text: word })
-      masterTl.add(tl)
+      let tl = gsap.timeline({ repeat: 1, yoyo: true, repeatDelay: 2 })
+      tl.to(refMySkills.current, { duration: 2, text: word })
+      enterTml.add(tl)
     })
   }, [])
 
@@ -51,7 +59,7 @@ const HeaderLanding: React.FC = () => {
         <SubTitleName>Desenvolvedor Mobile</SubTitleName>
         <ContainerAnimation>
           <Box ref={refBox} />
-          <Hi ref={refHi}>Hi, I'm</Hi>
+          <Hi ref={refHi}>Eaê!</Hi>
           <MySkills ref={refMySkills}></MySkills>
           <Cursor ref={refCursor}>_</Cursor>
         </ContainerAnimation>

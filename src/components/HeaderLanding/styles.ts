@@ -54,22 +54,23 @@ export const SubTitleName = styled.h6`
 `
 
 export const ContainerAnimation = styled.h1`
-  margin-top: 6rem;
-  font-size: 4rem;
+  margin-top: 6vw;
+  font-size: 4vw;
   font-weight: bold;
   overflow: hidden;
 `
 
 export const Box = styled.span`
   position: absolute;
-  bottom: 0.4rem;
+  bottom: 0;
   display: inline-block;
-  background-color: ${({ theme }) => theme.secondColor};
-  height: 0.2rem;
+  background-color: ${({ theme }) => theme.menu};
+  height: 1vw;
   z-index: -1;
 `
 
 export const Hi = styled.span`
+  margin-left: 1vw;
   display: inline-block;
 `
 export const MySkills = styled.span`
