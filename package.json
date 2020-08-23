@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
+    "gsap": "file:gsap-bonus.tgz",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
