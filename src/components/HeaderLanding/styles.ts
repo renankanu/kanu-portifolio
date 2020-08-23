@@ -52,3 +52,28 @@ export const SubTitleName = styled.h6`
     font-size: 1.4rem;
   }
 `
+
+export const ContainerAnimation = styled.h1`
+  margin-top: 6rem;
+  font-size: 4rem;
+  font-weight: bold;
+  overflow: hidden;
+`
+
+export const Box = styled.span`
+  position: absolute;
+  bottom: 0.4rem;
+  display: inline-block;
+  background-color: ${({ theme }) => theme.secondColor};
+  height: 0.2rem;
+  z-index: -1;
+`
+
+export const Hi = styled.span`
+  display: inline-block;
+`
+export const MySkills = styled.span`
+  font-weight: normal;
+  padding-left: 1.2vw;
+`
+export const Cursor = styled.span``
