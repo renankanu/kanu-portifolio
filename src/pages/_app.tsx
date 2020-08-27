@@ -6,9 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-interface CustomAppProps extends AppProps {}
-
-const CustomApp: React.FC<CustomAppProps> = ({ Component, pageProps }) => {
+const CustomApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
     AOS.init({
       duration: 1800,
