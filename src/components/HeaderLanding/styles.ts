@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Headerlanding = styled.header`
   width: 100%;
   height: 100vh;
+  background: #000;
 `
 
 export const Container = styled.div`

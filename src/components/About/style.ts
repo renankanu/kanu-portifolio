@@ -44,16 +44,16 @@ export const AboutHeading = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 10rem;
+  /* font-size: 10rem;
   opacity: 0.3;
   @media screen and (max-width: 768px) {
     font-size: 8rem;
-  }
+  } */
 `
 
 export const SubTitle = styled.h6`
-  font-size: 2rem;
-  font-weight: 300;
+  /* font-size: 2rem; */
+  /* font-weight: 300; */
 `
 
 export const Description = styled.p`
