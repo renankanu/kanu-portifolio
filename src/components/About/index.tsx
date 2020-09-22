@@ -23,20 +23,20 @@ const About: React.FC = () => {
         <ContainerImage data-aos="fade-right" data-aos-delay="300">
           <Image src="/kanu.jpg" alt="Renan Kanu" />
         </ContainerImage>
-        <ContainerIntroDesc data-aos="fade-left" data-aos-delay="600">
+        <ContainerIntroDesc>
           <AboutHeading>
             <Title>Sobre</Title>
             <SubTitle>Renan</SubTitle>
           </AboutHeading>
-          {/* <Description>
+          <Description>
             {`Olá, meu nome é Renan e moro em Cianorte-PR.
             Comecei na programação em 2016 como desenvolvedor Android Nativo
             com Java, em 2018 comecei a codar Android Nativo com Kotlin e no
             segundo semestre de 2019 comecei a programar em React Native
             e estou até o momento. Estudando e lendo sobre Flutter, NodeJs e
             me arriscando no Front End Web.`}
-          </Description> */}
-          {/* <SocialMediaContainer>
+          </Description>
+          <SocialMediaContainer>
             <NavList>
               <ListItem>
                 <IconLink href="https://www.facebook.com/renan.santos.92123/" target="_blank">
@@ -54,7 +54,7 @@ const About: React.FC = () => {
                 </IconLink>
               </ListItem>
             </NavList>
-          </SocialMediaContainer> */}
+          </SocialMediaContainer>
         </ContainerIntroDesc>
       </Container>
     </AboutSection>

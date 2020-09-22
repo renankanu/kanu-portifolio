@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const AboutSection = styled.div`
   padding: 10rem 0;
   width: 100vw;
-  background: #0f0;
 `
 export const Container = styled.div`
   width: 90%;
