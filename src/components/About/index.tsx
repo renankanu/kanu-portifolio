@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {
   Container,
   SubTitle,
@@ -17,10 +17,11 @@ import {
 } from './style'
 
 const About: React.FC = () => {
+  const refImg = useRef(null)
   return (
     <AboutSection id="about">
       <Container>
-        <ContainerImage data-aos="fade-right" data-aos-delay="300">
+        <ContainerImage ref={refImg}>
           <Image src="/kanu.jpg" alt="Renan Kanu" />
         </ContainerImage>
         <ContainerIntroDesc>
