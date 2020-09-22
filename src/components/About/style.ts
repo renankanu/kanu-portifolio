@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const AboutSection = styled.div`
   padding: 10rem 0;
+  width: 100vw;
+  background: #0f0;
 `
 export const Container = styled.div`
   width: 90%;
@@ -44,16 +46,16 @@ export const AboutHeading = styled.div`
 `
 
 export const Title = styled.h1`
-  /* font-size: 10rem;
+  font-size: 10rem;
   opacity: 0.3;
   @media screen and (max-width: 768px) {
     font-size: 8rem;
-  } */
+  }
 `
 
 export const SubTitle = styled.h6`
-  /* font-size: 2rem; */
-  /* font-weight: 300; */
+  font-size: 2rem;
+  font-weight: 300;
 `
 
 export const Description = styled.p`
@@ -98,5 +100,5 @@ export const SocialMediaContainer = styled.div`
 `
 
 export const Image = styled.img`
-  width: 100%;
+  width: 100vw;
 `

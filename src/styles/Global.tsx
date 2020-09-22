@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle<Props>`
 
 html {
   font-size: 10px;
+  font-family: 'Fira Code', sans-serif;
   color: #eee;
 }
 
@@ -24,19 +25,6 @@ body {
   background-size: cover;
   color: ${({ theme }) => theme.white};
   overflow-x: hidden;
-}
-
-body, input, button {
-    font-family: 'Fira Code', sans-serif;
-    font-size: 16px;
-}
-
-h1, h2, h3, h4, h5, h6, strong {
-    font-weight: 600;
-}
-
-button {
-    cursor: pointer;
 }
 `
 
