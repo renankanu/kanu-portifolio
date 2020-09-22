@@ -99,5 +99,5 @@ export const SocialMediaContainer = styled.div`
 `
 
 export const Image = styled.img`
-  width: 100vw;
+  width: 100%;
 `
