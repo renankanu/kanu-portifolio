@@ -75,5 +75,6 @@ export const StackImg = styled.img`
 
 export const TitleSkill = styled.div`
   letter-spacing: 2px;
+  font-size: 1.4rem;
   margin: 0 -2px 2rem 0;
 `

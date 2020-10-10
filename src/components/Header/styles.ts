@@ -52,6 +52,7 @@ export const Anchor = styled.div`
   a {
     color: ${({ theme }) => theme.white};
     text-decoration: none;
+    font-size: 1.5rem;
   }
 
   ${({ desktop }) =>
@@ -62,7 +63,7 @@ export const Anchor = styled.div`
 			}
 
 			a {
-					margin-right: 1rem;
+					margin-right: 1.5rem;
 
 					&:last-child {
 							margin-right: unset;

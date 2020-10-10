@@ -86,6 +86,7 @@ export const TitleSkill = styled.div`
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
+  font-size: 1.4rem;
 `
 
 export const DescriptionSkill = styled.p`

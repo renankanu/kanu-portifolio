@@ -114,6 +114,8 @@ export const WorkTitle = styled.h1`
   opacity: 0.3;
 `
 
-export const WorkDesc = styled.p``
+export const WorkDesc = styled.p`
+  font-size: 1.4rem;
+`
 
 export const a = styled.div``
