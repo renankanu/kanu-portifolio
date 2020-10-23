@@ -12,7 +12,7 @@
 </div>
 
 ## Construído com
-Algumas coisas que usei no projeto
+Algumas coisas que utilizei no projeto
 * [NextJs](https://nextjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Styled Components](https://styled-components.com/)
