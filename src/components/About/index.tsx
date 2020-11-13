@@ -32,10 +32,10 @@ const About: React.FC = () => {
           <Description>
             {`Olá, meu nome é Renan e moro em Cianorte-PR.
             Comecei na programação em 2016 como desenvolvedor Android Nativo
-            com Java, em 2018 comecei a codar Android Nativo com Kotlin e no
-            segundo semestre de 2019 comecei a programar em React Native
-            e estou até o momento. Estudando e lendo sobre Flutter, NodeJs e
-            me arriscando no Front End Web.`}
+            com Java, em 2018 comecei a codar Android Nativo com Kotlin, PHP e
+            trabalhei com alguns serviços da AWS como: eC2, RDS, SNS, SES, S3...
+            E no segundo semestre de 2019 comecei a programar em React Native na Megaleios
+            e estou até o momento. Estudando e lendo sobre Flutter.`}
           </Description>
           <SocialMediaContainer>
             <NavList>
