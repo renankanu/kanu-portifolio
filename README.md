@@ -18,16 +18,6 @@ Algumas coisas que utilizei no projeto
 * [Styled Components](https://styled-components.com/)
 * [AOS](https://michalsnik.github.io/aos/)
 
-## Contribuindo
-
-As contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar.
-
-1. Dê um Fork
-2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Dê um Commit nas suas alterações  (`git commit -m 'Add some AmazingFeature'`)
-4. Dê um Push na Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 ## Licença
 
 Todo o código neste repo é licenciado pelo MIT.
