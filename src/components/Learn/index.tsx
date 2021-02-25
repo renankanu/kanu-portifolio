@@ -24,29 +24,23 @@ const Learn: React.FC = () => {
         <MyStudies>
           <LearnItem data-aos="zoom-in" data-aos-delay="300">
             <IconContainer>
-              <StackImg alt="flutter" src="/flutter.png" />
-            </IconContainer>
-            <TitleSkill>Flutter</TitleSkill>
-          </LearnItem>
-          <LearnItem data-aos="zoom-in" data-aos-delay="500">
-            <IconContainer>
               <StackImg alt="nextjs" src="/nextjs.png" />
             </IconContainer>
             <TitleSkill>NextJs</TitleSkill>
           </LearnItem>
-          <LearnItem data-aos="zoom-in" data-aos-delay="700">
+          <LearnItem data-aos="zoom-in" data-aos-delay="500">
             <IconContainer>
               <StackImg alt="typescript" src="/typescript.png" />
             </IconContainer>
             <TitleSkill>TypeScript</TitleSkill>
           </LearnItem>
-          <LearnItem data-aos="zoom-in" data-aos-delay="900">
+          <LearnItem data-aos="zoom-in" data-aos-delay="700">
             <IconContainer>
               <StackImg alt="nodejs" src="/nodejs.png" />
             </IconContainer>
             <TitleSkill>NodeJs</TitleSkill>
           </LearnItem>
-          <LearnItem data-aos="zoom-in" data-aos-delay="1200">
+          <LearnItem data-aos="zoom-in" data-aos-delay="900">
             <IconContainer>
               <StackImg alt="reactjs" src="/reactjs.png" />
             </IconContainer>
