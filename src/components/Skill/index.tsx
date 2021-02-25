@@ -1,4 +1,5 @@
 import React from 'react'
+import { StackImg } from '../Learn/styles'
 
 import {
   ServiceSection,
@@ -75,6 +76,15 @@ const Skill: React.FC = () => {
             <DescriptionSkill>
               Conhecimento em desenvolvimento de APPs nativo utilizando Kotlin como linguagem.
             </DescriptionSkill>
+          </Skills>
+        </MySkills>
+        <MySkills>
+          <Skills data-aos="zoom-in" data-aos-delay="300">
+            <IconContainer>
+              <StackImg alt="flutter" src="/flutter.png" />
+            </IconContainer>
+            <TitleSkill>Flutter</TitleSkill>
+            <DescriptionSkill>Criando APPs incríveis com Flutter</DescriptionSkill>
           </Skills>
         </MySkills>
       </Container>

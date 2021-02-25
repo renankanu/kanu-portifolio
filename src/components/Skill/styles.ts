@@ -72,14 +72,12 @@ export const IconContainer = styled.div`
   border: 3px solid ${({ theme }) => theme.secondColor};
   margin-bottom: 2rem;
   display: flex;
-  transform: rotate(45deg);
 `
 
 export const Icon = styled.i`
   color: ${({ theme }) => theme.secondColor};
   font-size: 5rem;
   margin: auto;
-  transform: rotate(-45deg);
 `
 
 export const TitleSkill = styled.div`
